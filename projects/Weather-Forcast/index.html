@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Let's get the temperature of our city !</h1>
+    <div class="frontPage">
+            <p id="search">Type your city :</p>
+            <input type="text" >
+            <button>Get it</button>
+            <div class="uppersec">
+            <div class="temp"><!-- for sun/moon images -->
+                <img id="image" src="./images/lightning.png" alt="condition of sky" height="200px">     
+                <h2 id="temp"></h2>
+                <p id="condition"></p>
+                <p id="feels"></p>
+            </div>
+            <div class="city">
+                <img id="kanha" src="./images/lightningrk.jpg" alt="Radhakrishna" height="180px" width="190px">
+
+                <h2 id="city"></h2>
+                <p>Location: <p id="loc"></p></p>
+                <p>Time Zone: <p id="time"></p></p>
+            </div>
+        </div>
+    </div>
+    <div class="lowersec">
+        <div id="humidity">........ Humidity:<p id="hvalue"></p>.......</div>
+        <div id="wind">
+            <div><u>Wind Direction:</u><p id="dir"></p></div>
+            <div><u>Wind Degree:</u><p id="deg"></p></div>
+            <div><u>Wind Speed:</u><p id="speed"></p></div>
+        </div>
+    </div>
+    <div id="update">Local Time: <b></b></div>
+</body>
+<script src="script.js"></script>
+</html>

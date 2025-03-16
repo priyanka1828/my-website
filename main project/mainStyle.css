@@ -1,0 +1,314 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#7A73D1;
+	font-family:Verdana;
+}
+a, abbr{
+	text-decoration:none;
+}
+.hide{
+	display:none !important;
+}
+h1{
+ text-align:center;
+ background-color:#211C84;
+ color:rgb(196, 222, 248);
+}
+.upSection{
+	height:23px;	
+	font-size:20px;
+	padding:2px;
+}
+table{
+	border-collapse: collapse;
+}
+table t{
+	text-decoration:none;
+	color:#F2E2B1;
+	cursor:pointer;
+}
+t:hover{
+	color:rgb(237, 143, 143);
+}
+#portfolio, #radhaGovind,#home, #resumes{
+	border-right:2px solid #211C84; 
+}
+#contact{
+	padding:0 30px 0 30px;
+}
+#radhaGovind{
+	padding:0 110px 0 110px;
+}
+#home{
+	padding: 0 40px 0 40px;
+}
+#resumes{
+	padding: 0 50px 0 50px;
+}
+#portfolio{
+	padding: 0 70px 0 70px;
+}
+
+
+/* CONTACT SECTION */
+
+.contact{
+	background-color:black;
+	color:white;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-
+serif;
+	padding:20px;
+	width:100%;
+	height:40px;
+	position:fixed;
+	display:flex;
+	justify-content:space-around;
+}
+.contact tr,.contact #b{
+	border:4px solid black;
+	padding:3px;
+	width:900px;
+	align-items:center;
+	text-align:center;
+	background-color:beige;
+	color:black;
+}
+.contact td:hover{
+	background-color:rgb(174, 172, 172);
+}
+.contact table{
+	border-collapse:collapse;
+}
+.contact img{
+	height:20px;
+	width:20px;
+}
+.contact a{
+	color:black;
+}
+
+/* HOME SECTION */
+
+.lowSection .home{
+	height:70vh;
+	background-image:url("https://t4.ftcdn.net/jpg/12/09/61/53/360_F_1209615347_EVKOv0WFEDwVx6CeLsmaeGlcoABbilJx.jpg");
+	background-size:cover;
+	padding:100px 0;
+	display:flex;
+	justify-content:space-around;
+}
+.home #projects,.home #experiences,.home #certificates,.home #semester{
+	text-align:center;
+	align-items:center;
+	background-color:rgb(86, 64, 252);
+	height:450px;
+	width:250px;
+	font-size:30px;
+	position:relative;
+}
+.home .head{
+	padding: 30px 0;
+	background:linear-gradient(rgb(11, 1, 152),rgb(55, 64, 250),rgb(11, 1, 152));
+	color:rgb(203, 198, 198);
+	width:100%;
+	margin:0;
+	cursor:pointer;
+}
+.home #amt{
+	color:rgb(206, 206, 206);
+	font-size:130px;
+	position:relative;
+	margin-top:20%;
+	cursor:context-menu;
+}
+
+/* RESUME PORTION */
+
+.resume{
+	padding-top:20px;
+	align-items:center;
+	font-family: 'Pacifico', cursive;
+	background-color:hsl(14, 42%, 37%);
+}
+#resume{
+	background-color:black;
+	height:100%;
+    width:1150px;
+	display:flex;
+	justify-content:space-between;
+	margin:auto;
+}
+.resume .left{
+	width:368px;
+	background-color:black;
+	color:white;
+	text-align:left;
+	padding:20px;
+	height:100%;
+}
+.resume .right{
+	height:100%;
+	width:864px;
+	background-color:black;
+}
+.resume .inright{
+	width: 704px;
+	height:100%;
+	background-color:#E4C59E;
+	margin:1rem auto;
+	padding-top:0.008pt 0 ;
+}
+.resume #image{
+	height: 340px;
+}
+.resume .contacts,.resume .education,.resume .work{
+	margin:20px;
+	font-size:20px;
+}
+.resume h2{
+	font-size:30px;
+	margin:20px 0 10px 0;
+}
+.resume ul img{
+	height:1.5rem;
+	margin:0.1rem;
+	border: 0.1rem solid white;
+	border-radius:1rem;
+	object-fit:cover;
+}
+.resume a{
+	color:white;
+}
+.resume #line{
+	height:0.1rem;
+	background-color:white;
+}
+.resume .education p,.resume .work p{
+	margin-top:0.5rem;
+}
+.resume .education ul,.resume .work ul{
+	font-size:0.8rem;
+	margin-left:1rem;
+}
+.resume h1 {
+	margin:10px 0 0 0;
+	font-family: 'Courier New', monospace;
+	text-align:center;
+	font-size: 55px;
+	font-style: italic;
+	background: linear-gradient(to right, #f06,rgb(0, 0, 0));
+	-webkit-background-clip: text;
+	color: transparent;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.resume .me p{
+	margin: 0 30px;
+	text-align:left;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.resume .projects h2,.resume .skills h2,.resume .certificate h2{
+	margin:20px 0;
+	font-size:30px;
+    color: rgb(100, 1, 1);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.resume .projects,.resume .skills,.resume .certificate{
+	margin:0 30px;
+}
+.resume .projects a,.resume .certificate a{
+	font-size:22px;
+	color:black;
+}
+.resume j{
+	color:rgb(92, 91, 91);
+}
+.resume .Pro_date{
+	display:flex;
+	justify-content:space-between;
+}
+.resume .projects a:hover,.resume .certificate a:hover{
+	color:rgb(151, 5, 5);
+}
+.resume .projects p{
+	margin:20px 0 0 0;
+}
+.resume .projects ul,.resume .skills ul,.resume .certificate ul{
+	margin:0 20px;
+}
+.resume .skills ul{
+	font-size:20px;
+    color:black;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio{
+	background-color:#A696C8;
+	align-items:center;
+    text-align:center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portfolio .line{
+	height:2px;
+	background-color:black;
+}
+.portfolio h1{
+  padding:20px;
+  background-color:#252243;
+  color:white;
+}
+.portfolio img{
+	height:200px;
+	width:230px;
+	padding:10px;
+	border:10px solid transparent;
+	border-image: linear-gradient(to right,rgb(13, 13, 241), rgb(94, 3, 130),rgb(163, 43, 169)) 1 ;
+}
+.portfolio .main div{
+	margin:0 auto;
+	padding:30px;
+	width:1000px;
+	display:flex;
+	flex-wrap:wrap;
+	gap:30px;
+	justify-content:space-around;
+}
+.portfolio a,.radhaGovind a{
+	color:#15126e;
+}
+.portfolio a:hover,.radhaGovind a:hover{
+	color:rgb(236, 69, 69);
+}
+.portfolio p{
+	height:40px;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* RADHA GOVIND SECTION */
+.radhaGovind{
+	background:linear-gradient( rgb(243, 218, 218), rgb(255, 213, 0),orange, rgb(237, 87, 242), rgb(155, 101, 243));
+}
+.radhaGovind .main{
+	margin:20px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+.radhaGovind h1{
+	align-items:center;
+	text-align:center;
+	font-size:40px;
+	margin:30px;
+	color:transparent;
+	background-image:linear-gradient(to right, blue,red, yellow);
+	-webkit-background-clip: text; 
+}
+.radhaGovind img{
+	width:95%;
+	margin:10px auto;
+	align-items:center;
+	text-align:center;
+}

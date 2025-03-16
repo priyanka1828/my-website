@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+body{
+    background-color:#FFCCEA;
+}
+.frontPage{
+    background-color:#344CB7;
+    height:90vh;
+    padding-left:40px;
+}
+h1{
+    font-family:"Lucida Handwriting", cursive;
+    padding:15px;
+    text-align:center;
+    height:10vh;
+    align-items:center;
+    background-color:#6A80B9;
+    color:#000957;
+}
+#search{
+    margin:5px;
+    font-size:20px;
+    color:rgb(196, 177, 87);
+}
+input{
+    padding:3px;
+}
+button{
+    background-color:rgb(196, 177, 87);
+    font-weight:bold;
+    height:32px;
+    width:54px;
+    border:solid black 1.5px;
+}
+button:hover{
+    background-color:rgb(83, 39, 39);
+    color:white;
+}
+select{
+    font-size:18px;
+    width:180px;
+    text-align:center;
+}
+.uppersec{
+    display:flex;
+    justify-content:center;
+    color:#F6C794;
+    align-items:center;
+    gap:400px;
+}
+#temp,#city,img{
+    border-radius:50%;
+    margin-top:30px;
+    font-size:50px;
+    font-weight: 200;
+}
+.lowersec{
+    height:85vh;
+}
+#humidity{
+    color:#000957;
+    height:40vh;
+    background-color:#7071E8;
+    align-items:center;
+    display:flex;
+    font-size:4.5rem;
+    font-family:"Segoe Script";
+}
+#wind{
+    background-color:#7071E8;
+    height:45vh;
+    display:flex;
+    justify-content:space-around;
+}
+#update{
+    margin-bottom:0;
+    margin-left:80%;
+}
+#wind div{
+    font-size:30px;
+    margin:15px;
+}
+#dir,#deg,#speed{          
+    font-size:70px;
+    margin:30px;
+    text-align:center;
+}

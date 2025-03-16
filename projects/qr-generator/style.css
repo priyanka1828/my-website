@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	align-items:center;
+	text-align:center;
+}
+body{
+	font-family:sans-serif, monospace;
+	background-color:#80CBC4;
+}
+h1{
+	margin:0;
+	color:bisque;
+	background-color:#211C84;
+	padding:10px; 
+}
+p{
+	margin:10px;
+	font-family:Brush Script MT;
+}
+.everything{
+	display:flex;
+	justify-content:space-around;
+	margin:50px;
+}
+#text{
+	height:250px;
+	width:350px;
+	margin:0;
+	padding:0;
+	background-color:white;
+}
+button{
+	margin:0px;
+	padding:3px;
+	width:350px;
+	font-size:20px;
+	background-color:#443627;
+	color:white;
+}
+button:hover{
+	background-color:rgb(244, 202, 202);
+	color:black;
+}
+.hide{
+	display:none;
+}
+img{
+	height:280px;
+	width:280px;
+}
+.empty{
+	font-size:22px;
+	color:red;
+}
