@@ -100,6 +100,7 @@ RadheGovind.addEventListener("click",()=>{
 	}
 	RadhaKrishna.classList.remove("hide");
 })
+
 //toggle button ko lagi naya js
  
 let upSection = document.querySelector(".upSection");
@@ -115,7 +116,7 @@ menu.innerHTML = `
   <div class="menu-close">✕</div>
   <div class="menu-item" data-target="home">Home</div>
   <div class="menu-item" data-target="resumes">Resume</div>
-  <div class="menu-item" data-target="RadhaKrishna">Radha Govind</div>
+  <div class="menu-item" data-target="RadhaKrishna">RadheGovind</div>
   <div class="menu-item" data-target="portfolio">Portfolio</div>
 `;
 document.body.appendChild(menu);
@@ -228,6 +229,7 @@ style.textContent = `
 	
 	.resume .left, .resume .right {
 	  width: 100% !important;
+	  font-family:verdana;
 	}
 	
 	.resume .inright {
