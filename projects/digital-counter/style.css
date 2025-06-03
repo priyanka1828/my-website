@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.hareKrsna{
+	background-image:url(https://madhurikunj.com/wp-content/uploads/2022/07/chant-the-holy-name.jpg);
+	background-size:cover;
+	height:100vh;
+	padding:20px;
+	align-items:center;
+    text-align:center;
+}
+
+.heading{
+	height:230px;
+	width:240px;
+	margin:auto;
+	background-color:white;
+}
+
+.counter{
+	background-image:url(https://gaudiyahistory.iskcondesiretree.com/wp-content/uploads/2011/08/Caitanya-Mahaprabhu-32.jpg);
+	background-size:contain;
+	height:140px;
+	width:240px;
+     
+	padding-top:30px;
+}
+
+.counter button{
+	margin: 50px;
+	height: 60px;
+	width:60px;
+	border-radius:30px;
+	background-image:url(https://res.cloudinary.com/teepublic/image/private/s--uL-fLzlz--/c_crop,x_10,y_10/c_fit,h_1109/c_crop,g_north_west,h_1260,w_1260,x_-99,y_-76/co_rgb:000000,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1260,w_1260/fl_layer_apply,g_north_west,x_-99,y_-76/bo_0px_solid_white/e_overlay,fl_layer_apply,h_1260,l_Misc:Poster%20Bumpmap,w_1260/e_shadow,x_6,y_6/c_limit,h_1254,w_1254/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1652075668/production/designs/30091185_0.jpg);
+	background-size:cover;
+}
+.counter button:hover{
+   border: 2px white solid;
+   opacity:90%;
+   cursor:pointer;
+}
+.afterwards{
+	background-image:linear-gradient(180deg,#FFD586,#FFE99A,#FFF2EB,#FFE99A,#FFD586);
+	height:60px;
+	width:240px;
+    display:flex;
+	justify-content:space-around;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.record{
+	font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+	font-size:20px;
+    text-align:center;
+    padding:10px 0;
+    width:100%;
+    bottom:0;
+    position:fixed;
+	color:rgb(105, 70, 24);
+}
+
+.record.sumeru{
+	font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+	font-size:20px;
+    text-align:center;
+    padding:10px 10px;
+    width:100%;
+	bottom: 300px; 
+    right: 10px;   
+    width: auto;
+    position:fixed;
+	color:rgb(225, 221, 215);
+}
